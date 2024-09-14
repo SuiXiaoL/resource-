@@ -1,0 +1,56 @@
+2024-09-05 10:57:27.615+0000 INFO  Logging config in use: File 'C:\javacode\neo4j-community-5.23.0\conf\user-logs.xml'
+2024-09-05 10:57:27.630+0000 INFO  Starting...
+2024-09-05 10:57:28.672+0000 INFO  This instance is ServerId{834e756d} (834e756d-919a-4fc5-93e4-76999d1049ff)
+2024-09-05 10:57:29.802+0000 INFO  ======== Neo4j 5.23.0 ========
+2024-09-05 10:57:32.297+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-09-05 10:57:32.406+0000 INFO  Bolt enabled on localhost:7687.
+2024-09-05 10:57:33.044+0000 INFO  HTTP enabled on localhost:7474.
+2024-09-05 10:57:33.045+0000 INFO  Remote interface available at http://localhost:7474/
+2024-09-05 10:57:33.048+0000 INFO  id: E79E33ADA0C7A9388846D3782087845E40355C83759B9B976378DCBAB9AA3244
+2024-09-05 10:57:33.049+0000 INFO  name: system
+2024-09-05 10:57:33.049+0000 INFO  creationDate: 2024-09-05T10:57:31.049Z
+2024-09-05 10:57:33.049+0000 INFO  Started.
+2024-09-05 11:01:55.247+0000 INFO  Neo4j Server shutdown initiated by request
+2024-09-05 11:01:55.247+0000 INFO  Stopping...
+2024-09-05 11:02:00.592+0000 INFO  Stopped.
+2024-09-05 11:02:01.644+0000 INFO  Logging config in use: File 'C:\javacode\neo4j-community-5.23.0\conf\user-logs.xml'
+2024-09-05 11:02:01.657+0000 INFO  Starting...
+2024-09-05 11:02:02.595+0000 INFO  This instance is ServerId{834e756d} (834e756d-919a-4fc5-93e4-76999d1049ff)
+2024-09-05 11:02:03.778+0000 INFO  ======== Neo4j 5.23.0 ========
+2024-09-05 11:02:05.634+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-09-05 11:02:05.742+0000 INFO  Bolt enabled on localhost:7687.
+2024-09-05 11:02:06.411+0000 INFO  HTTP enabled on localhost:7474.
+2024-09-05 11:02:06.413+0000 INFO  Remote interface available at http://localhost:7474/
+2024-09-05 11:02:06.417+0000 INFO  id: E79E33ADA0C7A9388846D3782087845E40355C83759B9B976378DCBAB9AA3244
+2024-09-05 11:02:06.418+0000 INFO  name: system
+2024-09-05 11:02:06.419+0000 INFO  creationDate: 2024-09-05T10:57:31.049Z
+2024-09-05 11:02:06.420+0000 INFO  Started.
+2024-09-06 00:27:10.653+0000 INFO  Logging config in use: File 'C:\javacode\neo4j-community-5.23.0\conf\user-logs.xml'
+2024-09-06 00:27:10.666+0000 INFO  Starting...
+2024-09-06 00:27:11.490+0000 INFO  This instance is ServerId{834e756d} (834e756d-919a-4fc5-93e4-76999d1049ff)
+2024-09-06 00:27:12.643+0000 INFO  ======== Neo4j 5.23.0 ========
+2024-09-06 00:27:14.406+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-09-06 00:27:14.497+0000 INFO  Bolt enabled on localhost:7687.
+2024-09-06 00:27:15.058+0000 INFO  HTTP enabled on localhost:7474.
+2024-09-06 00:27:15.058+0000 INFO  Remote interface available at http://localhost:7474/
+2024-09-06 00:27:15.061+0000 INFO  id: E79E33ADA0C7A9388846D3782087845E40355C83759B9B976378DCBAB9AA3244
+2024-09-06 00:27:15.061+0000 INFO  name: system
+2024-09-06 00:27:15.062+0000 INFO  creationDate: 2024-09-05T10:57:31.049Z
+2024-09-06 00:27:15.062+0000 INFO  Started.
+2024-09-06 01:17:24.770+0000 INFO  Logging config in use: File 'C:\javacode\neo4j-community-5.23.0\conf\user-logs.xml'
+2024-09-06 01:17:24.782+0000 INFO  Starting...
+2024-09-06 01:17:25.610+0000 INFO  This instance is ServerId{834e756d} (834e756d-919a-4fc5-93e4-76999d1049ff)
+2024-09-06 01:17:26.617+0000 INFO  ======== Neo4j 5.23.0 ========
+2024-09-06 01:17:28.284+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-09-06 01:17:28.372+0000 INFO  Bolt enabled on localhost:7687.
+2024-09-06 01:17:28.927+0000 INFO  HTTP enabled on localhost:7474.
+2024-09-06 01:17:28.928+0000 INFO  Remote interface available at http://localhost:7474/
+2024-09-06 01:17:28.931+0000 INFO  id: E79E33ADA0C7A9388846D3782087845E40355C83759B9B976378DCBAB9AA3244
+2024-09-06 01:17:28.931+0000 INFO  name: system
+2024-09-06 01:17:28.931+0000 INFO  creationDate: 2024-09-05T10:57:31.049Z
+2024-09-06 01:17:28.931+0000 INFO  Started.
+2024-09-06 01:20:15.021+0000 WARN  [bolt-11] The client is unauthorized due to authentication failure.
+2024-09-06 01:20:15.334+0000 WARN  [bolt-12] The client is unauthorized due to authentication failure.
+2024-09-06 01:20:15.645+0000 WARN  [bolt-13] The client is unauthorized due to authentication failure.
+2024-09-06 01:20:20.141+0000 WARN  [bolt-14] The client has provided incorrect authentication details too many times in a row.
+2024-09-06 01:20:20.461+0000 WARN  [bolt-15] The client has provided incorrect authentication details too many times in a row.
