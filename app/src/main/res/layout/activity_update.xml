@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16.0dip"
+    android:paddingRight="16.0dip">
+
+    <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/back"
+        app:title="通讯录"
+        app:titleTextColor="#ff6a6a6a" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_up"
+        android:orientation="vertical">
+
+        <EditText
+       android:id="@+id/up_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40.0dip"
+            android:layout_marginBottom="40.0dip"
+            android:hint="请输入姓名"
+            android:padding="9.0dip" />
+
+        <EditText
+            android:id="@+id/up_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40.0dip"
+            android:hint="请输入电话号"
+            android:padding="9.0dip" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+             android:id="@+id/man"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="男" />
+
+            <RadioButton
+            android:id="@+id/woman"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="女" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/up_bz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40.0dip"
+            android:hint=" 请输入备注"
+            android:padding="9.0dip" />
+
+        <Button
+           android:id="@+id/up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更改联系人信息" />
+    </LinearLayout>
+</RelativeLayout>

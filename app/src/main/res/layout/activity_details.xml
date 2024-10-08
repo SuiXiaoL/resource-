@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/details_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="280.0dip"
+        android:background="#ff0097a7"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/de_tx"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="70.0dip"
+            android:src="@drawable/peo_man" />
+
+        <TextView
+            android:id="@+id/de_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="20.0dip"
+            android:text="张三"
+            android:textSize="40.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details_bg_de"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/de_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="20.0dip"
+            android:text="5556"
+            android:textSize="25.0sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40.0dip"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/de_da_phone"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="100.0dip"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/d_phone"
+                android:foreground="?selectableItemBackground" />
+
+            <Button
+                android:id="@+id/de_da_message"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/d_message"
+                android:foreground="?selectableItemBackground" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/de_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="20.0dip"
+            android:text="性别：男"
+            android:textSize="25.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/de_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="20.0dip"
+            android:text="Android开发工程师"
+            android:textSize="25.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginTop="70.0dip"
+        android:layout_marginRight="30.0dip"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/de_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/de_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/de_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="编辑" />
+    </LinearLayout>
+</LinearLayout>
